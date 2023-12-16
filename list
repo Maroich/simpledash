@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pricing Page</title>
+  <style>
+    /* Add CSS styles for pricing table */
+    /* Example styles, customize as needed */
+    .pricing-table {
+      display: flex;
+      justify-content: space-around;
+      margin: 50px auto;
+    }
+
+    .plan {
+      border: 1px solid #ccc;
+      padding: 20px;
+      text-align: center;
+      width: 30%;
+    }
+
+    .plan h2 {
+      font-size: 24px;
+    }
+
+    .plan p {
+      font-size: 18px;
+    }
+
+    .plan button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Our Plans and Pricing</h1>
+  
+  <div class="pricing-table">
+    <div class="plan">
+      <h2>Basic</h2>
+      <p>$10/month</p>
+      <ul>
+        <li>Feature 1</li>
+        <li>Feature 2</li>
+        <li>Feature 3</li>
+      </ul>
+      <button>Select Plan</button>
+    </div>
+    
+    <div class="plan">
+      <h2>Standard</h2>
+      <p>$20/month</p>
+      <ul>
+        <li>Feature 1</li>
+        <li>Feature 2</li>
+        <li>Feature 3</li>
+        <li>Feature 4</li>
+      </ul>
+      <button>Select Plan</button>
+    </div>
+    
+    <div class="plan">
+      <h2>Premium</h2>
+      <p>$30/month</p>
+      <ul>
+        <li>Feature 1</li>
+        <li>Feature 2</li>
+        <li>Feature 3</li>
+        <li>Feature 4</li>
+        <li>Feature 5</li>
+      </ul>
+      <button>Select Plan</button>
+    </div>
+  </div>
+</body>
+</html>
