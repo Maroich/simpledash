@@ -27,13 +27,12 @@
 
       fetch('https://script.google.com/macros/s/AKfycbyUOAVav9D8zJv4Nc89CGQ2a7xv5Gb8xjNI5g4C6orpcwW4m8lzcZH53o3tVZEKJst_/exec', {
         method: 'POST',
-        mode: 'no-cors',
         headers: {
           'Content-Type': 'application/json'
         },
         body: jsonData
       }).then(response => {
-        if (response.ok) {
+        if (response.status === 200) {
           document.getElementById('message').innerText = 'Success: Your submission is ok.';
           document.getElementById('message').style.display = 'block';
         } else {
